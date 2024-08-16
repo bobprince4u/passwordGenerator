@@ -1,5 +1,12 @@
 
-   
+  
+/* Mobile styles (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .password-generator {
+      width: 90%;
+      padding: 15px;
+    }
+  } 
 
 main {
    
