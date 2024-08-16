@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    <title>Password enerator</title>
+</head>
+<body>
+    
+    <main>
+        <div class="password-generator">
+            <h1>Generate a<p id="randpass"> Random Password</p></h1>
+            <p>Never use an insecure Password again</p>
+             <button id="generate-btn">Generate passwords</button>
+               <button id="toggle-symbols-btn">Toggle symbols</button>
+               <button id="toggle-numbers-btn">Toggle numbers</button>
+                 <hr>
+               <div class="Passwords">
+                <div>
+                <h2>Password 1:</h2>
+                <input type="text" id="password-1" readonly>
+                <button id="copy-btn-1">Copy to clipboard</button>
+                </div>
+                <div>
+                <h2>Password 2:</h2>
+                <input type="text" id="password-2" readonly>
+                <button id="copy-btn-2">Copy to clipboard</button>
+                </div>
+               </div>
+                    
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
